@@ -98,7 +98,7 @@ const login_get = (req, res) =>{
     res.send('login')
 }
 
-// function to log the user out
+// function to log the user out and make the token expire almost immediately
 const logout_get = (req,res) =>{
     res.cookie('jwt', '', {maxAge: 1})
     res.redirect('/')
