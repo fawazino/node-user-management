@@ -45,5 +45,4 @@ http://localhost:3000/user/:id
 to view user profile
 ```
 # node-user-management
-## For
-[Technify Incubator](https://technifyincubator.com/)
+
